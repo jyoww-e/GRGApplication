@@ -3,6 +3,7 @@
 const fs = require("fs");
 const path = require("path");
 const koffi = require("koffi");
+const { trace } = require("./trace");
 
 const WIN = process.platform === "win32";
 const ARCH = { x64: "x64", ia32: "x86" }[process.arch];
@@ -116,7 +117,14 @@ function preloadDependencies(depDirs) {
 }
 
 const { libPath, depDirs } = locate();
-preloadDependencies(depDirs);
+const dependencyPaths = preloadDependencies(depDirs);
+trace("Native libraries", {
+    platform: process.platform,
+    architecture: process.arch,
+    execPath: process.execPath,
+    br08: libPath,
+    devbase: dependencyPaths,
+});
 if (WIN && !setDllDirectory(path.dirname(libPath))) {
   throw new Error(
     `Could not set the bundled DLL search directory to ${path.dirname(libPath)}.`,
