@@ -1,0 +1,20 @@
+{
+  "name": "br08-console",
+  "version": "1.0.0",
+  "description": "Console app for the GRG BR08 cash recycler (BR08ProDev native library)",
+  "main": "src/index.js",
+  "bin": {
+    "br08": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "build:standalone": "node scripts/build-standalone.js",
+    "start:standalone": "standalone\\node.exe standalone\\src\\index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "koffi": "^3.3.8"
+  }
+}

@@ -1,0 +1,1559 @@
+16:36:27.696 INFO: ->Enter [OBR08ProPhyBase::iSetCommPara]192  l_acDevLogDir=.\DevDriverLog\ l_szFileName=.\DevDriverLog\\Br08ProDevL.log
+16:36:27.696 SYSTEM: dll_version:V1.0.1B05, dll_date:2026-10-05 devbase_version:V2.0.0.11
+16:36:27.696 INFO: ->Enter  [OBR08ProPhyBase::iSetCommPara_isHighSpeed][304] p_bHighSpeed:0
+16:36:27.696 INFO: [OBR08ProPhyBase::iSetCommPara_isHighSpeed][319] iGetDefaultCommConfig2 ok eCommType:1
+16:36:27.696 INFO: [OBR08ProPhyBase::iSetCommPara_isHighSpeed][343] comID=3 Parity:2 iBaudRate:9600
+16:36:27.698 INFO: [OBR08ProPhyBase::iSetCommPara_isHighSpeed][365] iInitComm2 res:0
+16:36:27.698 INFO: ->Leave  [OBR08ProPhyBase::iSetCommPara_isHighSpeed][373]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:36:27.698 INFO: ->Leave [OBR08ProPhyBase::iSetCommPara][205]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:36:27.702 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iInit][160] 
+16:36:27.726 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iInit][186]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:36:33.577 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][791] 
+16:36:33.577 INFO: IsInhibit:1
+16:36:33.608 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][836]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:37:23.080 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][440] 
+16:37:23.248 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:37:23.248 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:37:23.248 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:37:23.248 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:37:23.248 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:37:23.248 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:37:23.248 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:37:23.248 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:37:23.248 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][472]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:37:23.282 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][985] 
+16:37:23.327 INFO: [iGetRcUnitRecv]1069 [0]No.1 escrowCode[0x66]-value[0]-country[0x4a][PHP]
+16:37:23.327 INFO: [iGetRcUnitRecv]1069 [1]No.2 escrowCode[0x67]-value[0]-country[0x4a][PHP]
+16:37:23.327 INFO: IsValidArrayCount[2]
+16:37:23.327 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][1077]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:37:23.327 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:37:23.358 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:37:23.358 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:37:23.358 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:37:23.358 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:37:23.421 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:37:23.421 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:37:23.421 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:37:23.421 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:37:23.421 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:37:23.421 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:37:23.421 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:37:23.421 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:37:23.421 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:37:23.452 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:37:23.483 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:37:23.483 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:37:23.483 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:37:23.483 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:37:23.547 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:37:23.547 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:37:23.547 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:37:23.547 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:37:23.547 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:37:23.547 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:37:23.547 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:37:23.547 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:37:23.547 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:37:23.547 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1171] 
+16:37:23.583 INFO: [iGetRcUnitCount]1220 [0] No.1 count[1]
+16:37:23.583 INFO: [iGetRcUnitCount]1220 [1] No.2 count[0]
+16:37:23.583 INFO: [iGetRcUnitCount]1220 [2] No.3 count[0]
+16:37:23.583 INFO: [iGetRcUnitCount]1220 [3] No.4 count[0]
+16:37:23.583 INFO: IsValidArrayCount[4]
+16:37:23.583 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1226]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:37:25.526 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iDispense][258] 
+16:37:25.526 INFO: [OBR08ProPhyBase_oriPro::iDispense]270 ucIsValidArrayCount[1]
+16:37:25.526 INFO: [0] No.1 need 1
+16:37:25.570 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iDispense][343]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:37:25.949 ERROR: RECV RSP FAIL(0),超时重接收
+16:38:12.597 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][791] 
+16:38:12.597 INFO: IsInhibit:1
+16:38:12.621 ERROR: ->Leave  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][832]()=1,iPhyCode=0x20017,iLogicCode=0x20017
+16:38:13.977 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][791] 
+16:38:13.977 INFO: IsInhibit:1
+16:38:14.016 ERROR: ->Leave  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][832]()=1,iPhyCode=0x20017,iLogicCode=0x20017
+16:38:20.267 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][791] 
+16:38:20.267 INFO: IsInhibit:1
+16:38:20.301 ERROR: ->Leave  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][832]()=1,iPhyCode=0x20017,iLogicCode=0x20017
+16:38:21.485 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][791] 
+16:38:21.485 INFO: IsInhibit:1
+16:38:21.525 ERROR: ->Leave  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][832]()=1,iPhyCode=0x20017,iLogicCode=0x20017
+16:38:22.945 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][791] 
+16:38:22.945 INFO: IsInhibit:1
+16:38:22.968 ERROR: ->Leave  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][832]()=1,iPhyCode=0x20017,iLogicCode=0x20017
+16:39:01.602 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][440] 
+16:39:01.668 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:39:01.668 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:39:01.668 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:39:01.668 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:39:01.668 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:39:01.668 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:39:01.668 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:39:01.668 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:39:01.668 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][472]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:39:01.668 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][985] 
+16:39:01.705 INFO: [iGetRcUnitRecv]1069 [0]No.1 escrowCode[0x66]-value[0]-country[0x4a][PHP]
+16:39:01.705 INFO: [iGetRcUnitRecv]1069 [1]No.2 escrowCode[0x67]-value[0]-country[0x4a][PHP]
+16:39:01.705 INFO: IsValidArrayCount[2]
+16:39:01.705 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][1077]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:39:01.739 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:39:01.769 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:39:01.769 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:39:01.769 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:39:01.769 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:39:01.835 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:39:01.835 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:39:01.835 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:39:01.835 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:39:01.835 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:39:01.835 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:39:01.835 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:39:01.835 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:39:01.835 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:39:01.835 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:39:01.856 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:39:01.856 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:39:01.856 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:39:01.856 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:39:01.922 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:39:01.922 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:39:01.922 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:39:01.922 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:39:01.922 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:39:01.922 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:39:01.922 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:39:01.922 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:39:01.922 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:39:01.966 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1171] 
+16:39:02.002 INFO: [iGetRcUnitCount]1220 [0] No.1 count[0]
+16:39:02.003 INFO: [iGetRcUnitCount]1220 [1] No.2 count[0]
+16:39:02.003 INFO: [iGetRcUnitCount]1220 [2] No.3 count[0]
+16:39:02.003 INFO: [iGetRcUnitCount]1220 [3] No.4 count[0]
+16:39:02.003 INFO: IsValidArrayCount[4]
+16:39:02.003 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1226]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:39:08.723 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][440] 
+16:39:08.789 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:39:08.789 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:39:08.789 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:39:08.789 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:39:08.789 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:39:08.789 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:39:08.789 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:39:08.789 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:39:08.789 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][472]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:39:08.789 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][985] 
+16:39:08.820 INFO: [iGetRcUnitRecv]1069 [0]No.1 escrowCode[0x66]-value[0]-country[0x4a][PHP]
+16:39:08.820 INFO: [iGetRcUnitRecv]1069 [1]No.2 escrowCode[0x67]-value[0]-country[0x4a][PHP]
+16:39:08.820 INFO: IsValidArrayCount[2]
+16:39:08.820 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][1077]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:39:08.855 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:39:08.889 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:39:08.889 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:39:08.889 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:39:08.889 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:39:08.956 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:39:08.956 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:39:08.956 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:39:08.956 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:39:08.956 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:39:08.956 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:39:08.956 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:39:08.956 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:39:08.956 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:39:08.956 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:39:08.988 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:39:08.988 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:39:08.988 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:39:08.988 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:39:09.056 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:39:09.056 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:39:09.056 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:39:09.056 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:39:09.056 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:39:09.056 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:39:09.056 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:39:09.056 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:39:09.056 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:39:09.089 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1171] 
+16:39:09.121 INFO: [iGetRcUnitCount]1220 [0] No.1 count[0]
+16:39:09.121 INFO: [iGetRcUnitCount]1220 [1] No.2 count[0]
+16:39:09.121 INFO: [iGetRcUnitCount]1220 [2] No.3 count[0]
+16:39:09.121 INFO: [iGetRcUnitCount]1220 [3] No.4 count[0]
+16:39:09.121 INFO: IsValidArrayCount[4]
+16:39:09.121 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1226]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:41:27.528 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][791] 
+16:41:27.528 INFO: IsInhibit:1
+16:41:27.556 ERROR: ->Leave  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][832]()=1,iPhyCode=0x20017,iLogicCode=0x20017
+16:41:27.556 INFO: ->Enter  [OBR08ProPhyBase::iCloseComm][212] 
+16:41:27.660 INFO: ->Leave  [OBR08ProPhyBase::iCloseComm][214]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:41:27.660 ERROR: ->Leave  [OBR08ProPhyBase_oriPro::iGetStatus][44]()=1,iPhyCode=0x20014,iLogicCode=0x20014
+16:41:27.660 INFO: ->Enter  [OBR08ProPhyBase::iCloseComm][212] 
+16:41:27.661 INFO: ->Leave  [OBR08ProPhyBase::iCloseComm][214]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:41:31.133 INFO: ->Enter [OBR08ProPhyBase::iSetCommPara]192  l_acDevLogDir=.\DevDriverLog\ l_szFileName=.\DevDriverLog\\Br08ProDevL.log
+16:41:31.134 SYSTEM: dll_version:V1.0.1B05, dll_date:2026-10-05 devbase_version:V2.0.0.11
+16:41:31.134 INFO: ->Enter  [OBR08ProPhyBase::iSetCommPara_isHighSpeed][304] p_bHighSpeed:0
+16:41:31.134 INFO: [OBR08ProPhyBase::iSetCommPara_isHighSpeed][319] iGetDefaultCommConfig2 ok eCommType:1
+16:41:31.134 INFO: [OBR08ProPhyBase::iSetCommPara_isHighSpeed][343] comID=3 Parity:2 iBaudRate:9600
+16:41:31.136 INFO: [OBR08ProPhyBase::iSetCommPara_isHighSpeed][365] iInitComm2 res:0
+16:41:31.137 INFO: ->Leave  [OBR08ProPhyBase::iSetCommPara_isHighSpeed][373]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:41:31.137 INFO: ->Leave [OBR08ProPhyBase::iSetCommPara][205]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:41:31.141 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iInit][160] 
+16:41:31.168 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iInit][186]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:41:31.665 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][791] 
+16:41:31.666 INFO: IsInhibit:1
+16:41:31.693 ERROR: ->Leave  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][832]()=1,iPhyCode=0x20017,iLogicCode=0x20017
+16:41:31.695 INFO: ->Enter  [OBR08ProPhyBase::iCloseComm][212] 
+16:41:31.797 INFO: ->Leave  [OBR08ProPhyBase::iCloseComm][214]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:41:31.797 ERROR: ->Leave  [OBR08ProPhyBase_oriPro::iGetStatus][44]()=1,iPhyCode=0x20014,iLogicCode=0x20014
+16:41:31.798 INFO: ->Enter  [OBR08ProPhyBase::iCloseComm][212] 
+16:41:31.798 INFO: ->Leave  [OBR08ProPhyBase::iCloseComm][214]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:42:23.887 INFO: ->Enter [OBR08ProPhyBase::iSetCommPara]192  l_acDevLogDir=.\DevDriverLog\ l_szFileName=.\DevDriverLog\\Br08ProDevL.log
+16:42:23.887 SYSTEM: dll_version:V1.0.1B05, dll_date:2026-10-05 devbase_version:V2.0.0.11
+16:42:23.887 INFO: ->Enter  [OBR08ProPhyBase::iSetCommPara_isHighSpeed][304] p_bHighSpeed:0
+16:42:23.887 INFO: [OBR08ProPhyBase::iSetCommPara_isHighSpeed][319] iGetDefaultCommConfig2 ok eCommType:1
+16:42:23.887 INFO: [OBR08ProPhyBase::iSetCommPara_isHighSpeed][343] comID=3 Parity:2 iBaudRate:9600
+16:42:23.889 INFO: [OBR08ProPhyBase::iSetCommPara_isHighSpeed][365] iInitComm2 res:0
+16:42:23.889 INFO: ->Leave  [OBR08ProPhyBase::iSetCommPara_isHighSpeed][373]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:42:23.889 INFO: ->Leave [OBR08ProPhyBase::iSetCommPara][205]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:42:23.896 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iInit][160] 
+16:42:23.922 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iInit][186]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:42:28.959 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][791] 
+16:42:28.959 INFO: IsInhibit:1
+16:42:29.003 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][836]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:43:01.623 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][791] 
+16:43:01.623 INFO: IsInhibit:1
+16:43:01.660 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][836]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:43:01.660 INFO: ->Enter  [OBR08ProPhyBase::iCloseComm][212] 
+16:43:01.806 INFO: ->Leave  [OBR08ProPhyBase::iCloseComm][214]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:43:01.806 ERROR: ->Leave  [OBR08ProPhyBase_oriPro::iGetStatus][44]()=1,iPhyCode=0x20014,iLogicCode=0x20014
+16:43:01.807 INFO: ->Enter  [OBR08ProPhyBase::iCloseComm][212] 
+16:43:01.807 INFO: ->Leave  [OBR08ProPhyBase::iCloseComm][214]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:50:49.231 INFO: ->Enter [OBR08ProPhyBase::iSetCommPara]192  l_acDevLogDir=.\DevDriverLog\ l_szFileName=.\DevDriverLog\\Br08ProDevL.log
+16:50:49.231 SYSTEM: dll_version:V1.0.1B05, dll_date:2026-10-05 devbase_version:V2.0.0.11
+16:50:49.231 INFO: ->Enter  [OBR08ProPhyBase::iSetCommPara_isHighSpeed][304] p_bHighSpeed:0
+16:50:49.231 INFO: [OBR08ProPhyBase::iSetCommPara_isHighSpeed][319] iGetDefaultCommConfig2 ok eCommType:1
+16:50:49.231 INFO: [OBR08ProPhyBase::iSetCommPara_isHighSpeed][343] comID=3 Parity:2 iBaudRate:9600
+16:50:49.233 INFO: [OBR08ProPhyBase::iSetCommPara_isHighSpeed][365] iInitComm2 res:0
+16:50:49.234 INFO: ->Leave  [OBR08ProPhyBase::iSetCommPara_isHighSpeed][373]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:50:49.234 INFO: ->Leave [OBR08ProPhyBase::iSetCommPara][205]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:50:49.239 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iInit][160] 
+16:50:49.261 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iInit][186]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:50:55.643 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][791] 
+16:50:55.643 INFO: IsInhibit:1
+16:50:55.674 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][836]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:51:05.824 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][440] 
+16:51:05.889 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:51:05.889 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:51:05.889 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:51:05.889 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:51:05.889 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:51:05.889 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:51:05.889 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:51:05.889 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:51:05.889 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][472]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:51:05.919 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][985] 
+16:51:05.960 INFO: [iGetRcUnitRecv]1069 [0]No.1 escrowCode[0x66]-value[0]-country[0x4a][PHP]
+16:51:05.960 INFO: [iGetRcUnitRecv]1069 [1]No.2 escrowCode[0x67]-value[0]-country[0x4a][PHP]
+16:51:05.960 INFO: IsValidArrayCount[2]
+16:51:05.960 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][1077]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:51:05.960 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:51:05.990 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:51:05.990 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:51:05.990 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:51:05.990 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:51:06.057 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:51:06.057 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:51:06.057 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:51:06.057 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:51:06.057 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:51:06.057 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:51:06.057 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:51:06.057 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:51:06.057 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:51:06.089 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:51:06.120 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:51:06.120 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:51:06.120 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:51:06.120 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:51:06.186 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:51:06.186 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:51:06.186 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:51:06.186 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:51:06.186 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:51:06.186 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:51:06.186 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:51:06.186 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:51:06.186 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:51:06.186 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1171] 
+16:51:06.223 INFO: [iGetRcUnitCount]1220 [0] No.1 count[0]
+16:51:06.223 INFO: [iGetRcUnitCount]1220 [1] No.2 count[0]
+16:51:06.223 INFO: [iGetRcUnitCount]1220 [2] No.3 count[0]
+16:51:06.223 INFO: [iGetRcUnitCount]1220 [3] No.4 count[0]
+16:51:06.223 INFO: IsValidArrayCount[4]
+16:51:06.223 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1226]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:51:26.479 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][440] 
+16:51:26.547 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:51:26.548 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:51:26.548 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:51:26.548 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:51:26.548 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:51:26.548 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:51:26.548 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:51:26.548 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:51:26.548 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][472]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:51:26.548 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetBill_escrowCode_enable][711] 
+16:51:26.568 INFO: enable 0x61[1]-0x62[1]-0x63[1]-0x64[1]-0x65[1]-0x66[1]-0x67[1]-0x68[1]
+16:51:26.568 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetBill_escrowCode_enable][784]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:51:35.979 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][440] 
+16:51:36.047 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:51:36.047 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:51:36.047 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:51:36.047 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:51:36.047 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:51:36.047 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:51:36.047 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:51:36.047 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:51:36.047 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][472]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:51:36.048 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetBill_escrowCode_enable][711] 
+16:51:36.067 INFO: enable 0x61[1]-0x62[1]-0x63[1]-0x64[1]-0x65[1]-0x66[1]-0x67[1]-0x68[1]
+16:51:36.067 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetBill_escrowCode_enable][784]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:51:36.098 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][985] 
+16:51:36.145 INFO: [iGetRcUnitRecv]1069 [0]No.1 escrowCode[0x66]-value[0]-country[0x4a][PHP]
+16:51:36.145 INFO: [iGetRcUnitRecv]1069 [1]No.2 escrowCode[0x67]-value[0]-country[0x4a][PHP]
+16:51:36.145 INFO: IsValidArrayCount[2]
+16:51:36.145 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][1077]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:51:36.145 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:51:36.176 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:51:36.176 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:51:36.176 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:51:36.176 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:51:36.239 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:51:36.239 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:51:36.239 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:51:36.239 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:51:36.239 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:51:36.239 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:51:36.239 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:51:36.239 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:51:36.239 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:51:36.270 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:51:36.301 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:51:36.301 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:51:36.301 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:51:36.301 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:51:36.364 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:51:36.364 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:51:36.364 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:51:36.364 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:51:36.364 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:51:36.364 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:51:36.364 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:51:36.364 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:51:36.364 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:51:55.076 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][440] 
+16:51:55.134 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:51:55.134 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:51:55.134 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:51:55.134 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:51:55.134 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:51:55.134 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:51:55.134 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:51:55.134 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:51:55.134 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][472]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:51:55.134 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][985] 
+16:51:55.760 ERROR: RECV RSP FAIL(0),超时重接收
+16:51:55.785 INFO: [iGetRcUnitRecv]1069 [0]No.1 escrowCode[0x66]-value[0]-country[0x4a][PHP]
+16:51:55.785 INFO: [iGetRcUnitRecv]1069 [1]No.2 escrowCode[0x67]-value[0]-country[0x4a][PHP]
+16:51:55.785 INFO: IsValidArrayCount[2]
+16:51:55.785 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][1077]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:51:55.827 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:51:55.852 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:51:55.852 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:51:55.852 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:51:55.852 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:51:55.923 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:51:55.923 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:51:55.923 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:51:55.923 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:51:55.923 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:51:55.923 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:51:55.923 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:51:55.923 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:51:55.923 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:51:55.923 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:51:55.953 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:51:55.953 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:51:55.953 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:51:55.953 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:51:56.018 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:51:56.018 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:51:56.018 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:51:56.018 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:51:56.018 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:51:56.018 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:51:56.019 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:51:56.019 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:51:56.019 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:51:56.051 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1171] 
+16:51:56.088 INFO: [iGetRcUnitCount]1220 [0] No.1 count[0]
+16:51:56.088 INFO: [iGetRcUnitCount]1220 [1] No.2 count[0]
+16:51:56.088 INFO: [iGetRcUnitCount]1220 [2] No.3 count[0]
+16:51:56.088 INFO: [iGetRcUnitCount]1220 [3] No.4 count[0]
+16:51:56.088 INFO: IsValidArrayCount[4]
+16:51:56.088 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1226]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:53:07.584 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][791] 
+16:53:07.584 INFO: IsInhibit:0
+16:53:07.617 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][836]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:53:15.684 ERROR: RECV RSP FAIL(10),超时重接收
+0000: E0 63 13 EE 00 70 00 00 - FA 3E                      .c...p...>
+16:53:16.107 ERROR: RECV RSP FAIL(28),超时重接收
+0000: C8 00 00 00 00 00 12 36 - 1F E0 64 13 EE 00 70 00    .......6..d...p.
+0010: 00 FA 3E C8 00 00 00 00 - 00 12 75 AD                ..>.......u.
+16:53:16.140 ERROR: [vAnalyzeStatusData][1398920256]StatuDataLen1873
+16:53:16.140 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iCashIn][192] 
+16:53:16.164 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iCashIn][218]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:53:18.205 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+16:53:18.205 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:53:24.905 ERROR: [vAnalyzeStatusData][1398920256]StatuDataLen1873
+16:53:24.905 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iCashIn][192] 
+16:53:24.930 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iCashIn][218]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:53:26.034 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+16:53:26.034 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:53:28.580 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][791] 
+16:53:28.580 INFO: IsInhibit:1
+16:53:28.600 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][836]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:53:36.548 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][440] 
+16:53:36.613 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:53:36.613 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:53:36.613 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:53:36.613 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:53:36.613 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:53:36.613 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:53:36.613 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:53:36.613 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:53:36.615 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][472]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:53:36.615 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][985] 
+16:53:36.652 INFO: [iGetRcUnitRecv]1069 [0]No.1 escrowCode[0x66]-value[0]-country[0x4a][PHP]
+16:53:36.652 INFO: [iGetRcUnitRecv]1069 [1]No.2 escrowCode[0x67]-value[0]-country[0x4a][PHP]
+16:53:36.652 INFO: IsValidArrayCount[2]
+16:53:36.652 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][1077]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:53:36.677 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:53:36.709 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:53:36.709 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:53:36.709 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:53:36.709 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:53:36.774 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:53:36.774 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:53:36.774 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:53:36.774 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:53:36.774 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:53:36.774 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:53:36.774 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:53:36.774 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:53:36.774 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:53:36.774 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:53:36.808 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:53:36.808 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:53:36.808 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:53:36.808 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:53:36.867 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:53:36.867 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:53:36.867 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:53:36.867 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:53:36.867 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:53:36.867 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:53:36.867 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:53:36.867 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:53:36.867 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:53:36.900 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1171] 
+16:53:36.942 INFO: [iGetRcUnitCount]1220 [0] No.1 count[1]
+16:53:36.942 INFO: [iGetRcUnitCount]1220 [1] No.2 count[0]
+16:53:36.942 INFO: [iGetRcUnitCount]1220 [2] No.3 count[0]
+16:53:36.942 INFO: [iGetRcUnitCount]1220 [3] No.4 count[0]
+16:53:36.942 INFO: IsValidArrayCount[4]
+16:53:36.942 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1226]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:53:40.207 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][440] 
+16:53:40.272 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:53:40.272 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:53:40.272 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:53:40.272 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:53:40.272 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:53:40.272 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:53:40.272 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:53:40.272 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:53:40.272 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][472]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:53:40.302 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][985] 
+16:53:40.335 INFO: [iGetRcUnitRecv]1069 [0]No.1 escrowCode[0x66]-value[0]-country[0x4a][PHP]
+16:53:40.335 INFO: [iGetRcUnitRecv]1069 [1]No.2 escrowCode[0x67]-value[0]-country[0x4a][PHP]
+16:53:40.335 INFO: IsValidArrayCount[2]
+16:53:40.335 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][1077]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:53:40.335 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:53:40.358 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:53:40.358 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:53:40.358 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:53:40.358 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:53:40.432 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:53:40.432 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:53:40.432 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:53:40.432 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:53:40.432 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:53:40.432 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:53:40.432 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:53:40.432 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:53:40.432 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:53:40.462 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:53:40.484 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:53:40.484 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:53:40.484 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:53:40.484 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:53:40.552 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:53:40.552 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:53:40.552 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:53:40.552 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:53:40.552 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:53:40.552 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:53:40.552 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:53:40.552 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:53:40.552 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:53:40.552 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1171] 
+16:53:40.596 INFO: [iGetRcUnitCount]1220 [0] No.1 count[1]
+16:53:40.596 INFO: [iGetRcUnitCount]1220 [1] No.2 count[0]
+16:53:40.596 INFO: [iGetRcUnitCount]1220 [2] No.3 count[0]
+16:53:40.596 INFO: [iGetRcUnitCount]1220 [3] No.4 count[0]
+16:53:40.596 INFO: IsValidArrayCount[4]
+16:53:40.596 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1226]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:53:42.190 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iDispense][258] 
+16:53:42.190 INFO: [OBR08ProPhyBase_oriPro::iDispense]270 ucIsValidArrayCount[1]
+16:53:42.190 INFO: [0] No.1 need 1
+16:53:42.212 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iDispense][343]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:53:45.128 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+16:53:45.128 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:53:45.275 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][440] 
+16:53:45.341 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:53:45.341 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:53:45.341 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:53:45.341 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:53:45.341 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:53:45.341 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:53:45.341 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:53:45.341 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:53:45.341 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][472]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:53:45.342 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][985] 
+16:53:45.377 INFO: [iGetRcUnitRecv]1069 [0]No.1 escrowCode[0x66]-value[0]-country[0x4a][PHP]
+16:53:45.377 INFO: [iGetRcUnitRecv]1069 [1]No.2 escrowCode[0x67]-value[0]-country[0x4a][PHP]
+16:53:45.377 INFO: IsValidArrayCount[2]
+16:53:45.377 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][1077]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:53:45.408 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:53:45.440 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:53:45.440 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:53:45.440 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:53:45.440 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:53:45.506 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:53:45.506 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:53:45.506 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:53:45.506 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:53:45.506 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:53:45.506 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:53:45.506 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:53:45.506 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:53:45.506 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:53:45.506 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:53:45.534 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:53:45.534 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:53:45.534 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:53:45.534 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:53:45.602 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:53:45.602 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:53:45.602 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:53:45.602 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:53:45.602 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:53:45.602 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:53:45.602 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:53:45.602 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:53:45.602 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:53:45.628 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1171] 
+16:53:45.659 INFO: [iGetRcUnitCount]1220 [0] No.1 count[0]
+16:53:45.659 INFO: [iGetRcUnitCount]1220 [1] No.2 count[0]
+16:53:45.659 INFO: [iGetRcUnitCount]1220 [2] No.3 count[0]
+16:53:45.659 INFO: [iGetRcUnitCount]1220 [3] No.4 count[0]
+16:53:45.659 INFO: IsValidArrayCount[4]
+16:53:45.659 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1226]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:53:55.885 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][791] 
+16:53:55.885 INFO: IsInhibit:0
+16:53:55.916 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][836]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:54:03.556 ERROR: RECV RSP FAIL(5),超时重接收
+0000: E0 DB 13 EE 00                                       .....
+16:54:03.978 ERROR: RECV RSP FAIL(34),超时重接收
+0000: 70 00 00 FA 3E C8 00 00 - 00 00 00 12 6E 81 E0 DC    p...>.......n...
+0010: 14 EE 00 70 00 00 FA 3E - C8 00 00 00 00 00 17 FA    ...p...>........
+0020: FA 6E                                                .n
+16:54:11.483 ERROR: [vAnalyzeStatusData][1398920256]StatuDataLen1873
+16:54:11.483 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iCashIn][192] 
+16:54:11.512 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iCashIn][218]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:54:12.616 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+16:54:12.616 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:54:16.866 ERROR: [vAnalyzeStatusData][1398920256]StatuDataLen1873
+16:54:16.866 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iCashIn][192] 
+16:54:16.895 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iCashIn][218]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:54:18.926 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+16:54:18.926 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:54:32.569 ERROR: [vAnalyzeStatusData][1398920256]StatuDataLen1873
+16:54:32.569 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iCashIn][192] 
+16:54:32.594 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iCashIn][218]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:54:34.627 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+16:54:34.627 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:54:36.984 ERROR: [vAnalyzeStatusData][1398920256]StatuDataLen1873
+16:54:36.984 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iCashIn][192] 
+16:54:37.010 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iCashIn][218]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:54:39.041 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+16:54:39.041 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:54:42.079 ERROR: [vAnalyzeStatusData][1398920256]StatuDataLen1873
+16:54:42.079 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iCashIn][192] 
+16:54:42.110 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iCashIn][218]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:54:44.124 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+16:54:44.124 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:54:52.770 ERROR: [vAnalyzeStatusData][1398920256]StatuDataLen1873
+16:54:52.770 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iCashIn][192] 
+16:54:52.793 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iCashIn][218]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:54:54.828 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+16:54:54.828 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:54:57.082 ERROR: [vAnalyzeStatusData][1398920256]StatuDataLen1873
+16:54:57.082 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iCashIn][192] 
+16:54:57.110 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iCashIn][218]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:54:59.136 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+16:54:59.136 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:03.587 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][791] 
+16:55:03.587 INFO: IsInhibit:1
+16:55:03.610 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][836]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:06.225 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][440] 
+16:55:06.290 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:55:06.290 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:55:06.290 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:55:06.290 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:55:06.290 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:55:06.290 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:55:06.290 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:55:06.290 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:55:06.290 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][472]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:06.309 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][985] 
+16:55:06.356 INFO: [iGetRcUnitRecv]1069 [0]No.1 escrowCode[0x66]-value[0]-country[0x4a][PHP]
+16:55:06.356 INFO: [iGetRcUnitRecv]1069 [1]No.2 escrowCode[0x67]-value[0]-country[0x4a][PHP]
+16:55:06.356 INFO: IsValidArrayCount[2]
+16:55:06.356 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][1077]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:06.356 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:55:06.387 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:55:06.387 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:06.387 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:55:06.387 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:55:06.450 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:55:06.450 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:55:06.450 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:55:06.450 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:55:06.450 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:55:06.450 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:55:06.450 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:55:06.450 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:55:06.450 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:06.481 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:55:06.513 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:55:06.513 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:06.513 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:55:06.513 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:55:06.576 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:55:06.576 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:55:06.576 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:55:06.576 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:55:06.576 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:55:06.576 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:55:06.576 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:55:06.576 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:55:06.576 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:06.576 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1171] 
+16:55:06.610 INFO: [iGetRcUnitCount]1220 [0] No.1 count[1]
+16:55:06.610 INFO: [iGetRcUnitCount]1220 [1] No.2 count[0]
+16:55:06.610 INFO: [iGetRcUnitCount]1220 [2] No.3 count[0]
+16:55:06.610 INFO: [iGetRcUnitCount]1220 [3] No.4 count[0]
+16:55:06.610 INFO: IsValidArrayCount[4]
+16:55:06.610 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1226]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:08.179 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iDispense][258] 
+16:55:08.179 INFO: [OBR08ProPhyBase_oriPro::iDispense]270 ucIsValidArrayCount[1]
+16:55:08.179 INFO: [0] No.1 need 1
+16:55:08.209 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iDispense][343]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:11.428 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+16:55:11.428 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:11.571 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][440] 
+16:55:11.637 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:55:11.637 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:55:11.637 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:55:11.637 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:55:11.637 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:55:11.637 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:55:11.637 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:55:11.637 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:55:11.637 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][472]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:11.637 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][985] 
+16:55:11.674 INFO: [iGetRcUnitRecv]1069 [0]No.1 escrowCode[0x66]-value[0]-country[0x4a][PHP]
+16:55:11.674 INFO: [iGetRcUnitRecv]1069 [1]No.2 escrowCode[0x67]-value[0]-country[0x4a][PHP]
+16:55:11.674 INFO: IsValidArrayCount[2]
+16:55:11.674 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][1077]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:11.706 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:55:11.721 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:55:11.721 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:11.721 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:55:11.721 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:55:11.800 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:55:11.800 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:55:11.800 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:55:11.800 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:55:11.800 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:55:11.800 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:55:11.800 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:55:11.800 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:55:11.800 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:11.800 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:55:11.831 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:55:11.831 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:11.831 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:55:11.831 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:55:11.894 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:55:11.894 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:55:11.894 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:55:11.894 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:55:11.894 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:55:11.894 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:55:11.894 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:55:11.894 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:55:11.894 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:11.925 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1171] 
+16:55:11.956 INFO: [iGetRcUnitCount]1220 [0] No.1 count[0]
+16:55:11.956 INFO: [iGetRcUnitCount]1220 [1] No.2 count[0]
+16:55:11.956 INFO: [iGetRcUnitCount]1220 [2] No.3 count[0]
+16:55:11.956 INFO: [iGetRcUnitCount]1220 [3] No.4 count[0]
+16:55:11.956 INFO: IsValidArrayCount[4]
+16:55:11.956 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1226]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:29.409 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][791] 
+16:55:29.409 INFO: IsInhibit:0
+16:55:29.444 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][836]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:34.016 ERROR: [vAnalyzeStatusData][1398920256]StatuDataLen1873
+16:55:34.016 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iCashIn][192] 
+16:55:34.041 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iCashIn][218]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:35.128 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+16:55:35.128 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:36.785 ERROR: [vAnalyzeStatusData][1398920256]StatuDataLen1873
+16:55:36.785 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iCashIn][192] 
+16:55:36.808 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iCashIn][218]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:38.062 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+16:55:38.062 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:39.886 ERROR: [vAnalyzeStatusData][1398920256]StatuDataLen1873
+16:55:39.886 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iCashIn][192] 
+16:55:39.915 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iCashIn][218]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:41.286 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+16:55:41.287 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:42.931 ERROR: [vAnalyzeStatusData][1398920256]StatuDataLen1873
+16:55:42.931 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iCashIn][192] 
+16:55:42.958 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iCashIn][218]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:44.061 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+16:55:44.061 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:45.615 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][791] 
+16:55:45.615 INFO: IsInhibit:1
+16:55:45.705 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][836]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:48.261 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][440] 
+16:55:48.326 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:55:48.326 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:55:48.326 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:55:48.326 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:55:48.326 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:55:48.326 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:55:48.326 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:55:48.326 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:55:48.326 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][472]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:48.327 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][985] 
+16:55:48.356 INFO: [iGetRcUnitRecv]1069 [0]No.1 escrowCode[0x66]-value[0]-country[0x4a][PHP]
+16:55:48.356 INFO: [iGetRcUnitRecv]1069 [1]No.2 escrowCode[0x67]-value[0]-country[0x4a][PHP]
+16:55:48.356 INFO: IsValidArrayCount[2]
+16:55:48.356 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][1077]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:48.393 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:55:48.420 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:55:48.420 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:48.420 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:55:48.420 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:55:48.481 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:55:48.481 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:55:48.481 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:55:48.481 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:55:48.481 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:55:48.481 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:55:48.481 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:55:48.481 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:55:48.481 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:48.481 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:55:48.513 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:55:48.513 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:48.513 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:55:48.513 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:55:48.575 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:55:48.575 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:55:48.575 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:55:48.575 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:55:48.575 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:55:48.575 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:55:48.575 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:55:48.575 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:55:48.575 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:48.607 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1171] 
+16:55:48.654 INFO: [iGetRcUnitCount]1220 [0] No.1 count[2]
+16:55:48.654 INFO: [iGetRcUnitCount]1220 [1] No.2 count[2]
+16:55:48.654 INFO: [iGetRcUnitCount]1220 [2] No.3 count[0]
+16:55:48.654 INFO: [iGetRcUnitCount]1220 [3] No.4 count[0]
+16:55:48.654 INFO: IsValidArrayCount[4]
+16:55:48.654 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1226]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:56.024 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][440] 
+16:55:56.089 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:55:56.089 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:55:56.089 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:55:56.089 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:55:56.089 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:55:56.089 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:55:56.089 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:55:56.089 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:55:56.089 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][472]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:56.089 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][985] 
+16:55:56.124 INFO: [iGetRcUnitRecv]1069 [0]No.1 escrowCode[0x66]-value[0]-country[0x4a][PHP]
+16:55:56.124 INFO: [iGetRcUnitRecv]1069 [1]No.2 escrowCode[0x67]-value[0]-country[0x4a][PHP]
+16:55:56.124 INFO: IsValidArrayCount[2]
+16:55:56.124 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][1077]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:56.155 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:55:56.186 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:55:56.186 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:56.186 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:55:56.186 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:55:56.249 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:55:56.249 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:55:56.249 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:55:56.249 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:55:56.249 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:55:56.249 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:55:56.249 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:55:56.249 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:55:56.249 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:56.249 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:55:56.280 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:55:56.280 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:56.280 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:55:56.280 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:55:56.343 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:55:56.343 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:55:56.343 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:55:56.343 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:55:56.343 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:55:56.343 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:55:56.343 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:55:56.343 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:55:56.343 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:56.374 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1171] 
+16:55:56.405 INFO: [iGetRcUnitCount]1220 [0] No.1 count[2]
+16:55:56.405 INFO: [iGetRcUnitCount]1220 [1] No.2 count[2]
+16:55:56.405 INFO: [iGetRcUnitCount]1220 [2] No.3 count[0]
+16:55:56.405 INFO: [iGetRcUnitCount]1220 [3] No.4 count[0]
+16:55:56.405 INFO: IsValidArrayCount[4]
+16:55:56.405 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1226]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:55:59.474 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iDispense][258] 
+16:55:59.474 INFO: [OBR08ProPhyBase_oriPro::iDispense]270 ucIsValidArrayCount[2]
+16:55:59.474 INFO: [0] No.2 need 2
+16:55:59.474 INFO: [1] No.1 need 1
+16:55:59.509 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iDispense][343]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:56:04.542 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+16:56:04.542 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:56:09.470 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+16:56:09.470 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:56:12.122 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+16:56:12.122 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:56:12.270 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][440] 
+16:56:12.336 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:56:12.336 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:56:12.336 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:56:12.336 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:56:12.336 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:56:12.336 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:56:12.336 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:56:12.336 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:56:12.336 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][472]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:56:12.336 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][985] 
+16:56:12.371 INFO: [iGetRcUnitRecv]1069 [0]No.1 escrowCode[0x66]-value[0]-country[0x4a][PHP]
+16:56:12.371 INFO: [iGetRcUnitRecv]1069 [1]No.2 escrowCode[0x67]-value[0]-country[0x4a][PHP]
+16:56:12.371 INFO: IsValidArrayCount[2]
+16:56:12.371 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][1077]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:56:12.402 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:56:12.434 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:56:12.434 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:56:12.434 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:56:12.434 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:56:12.496 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:56:12.496 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:56:12.496 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:56:12.496 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:56:12.496 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:56:12.496 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:56:12.496 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:56:12.496 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:56:12.496 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:56:12.496 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:56:12.527 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:56:12.527 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:56:12.527 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:56:12.527 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:56:12.590 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:56:12.590 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:56:12.590 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:56:12.590 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:56:12.590 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:56:12.590 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:56:12.590 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:56:12.590 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:56:12.590 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:56:12.621 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1171] 
+16:56:12.653 INFO: [iGetRcUnitCount]1220 [0] No.1 count[1]
+16:56:12.653 INFO: [iGetRcUnitCount]1220 [1] No.2 count[0]
+16:56:12.653 INFO: [iGetRcUnitCount]1220 [2] No.3 count[0]
+16:56:12.653 INFO: [iGetRcUnitCount]1220 [3] No.4 count[0]
+16:56:12.653 INFO: IsValidArrayCount[4]
+16:56:12.653 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1226]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:56:41.481 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][440] 
+16:56:41.546 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:56:41.546 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:56:41.546 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:56:41.546 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:56:41.546 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:56:41.546 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:56:41.546 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:56:41.546 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:56:41.546 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][472]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:56:41.547 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][985] 
+16:56:41.571 INFO: [iGetRcUnitRecv]1069 [0]No.1 escrowCode[0x66]-value[0]-country[0x4a][PHP]
+16:56:41.571 INFO: [iGetRcUnitRecv]1069 [1]No.2 escrowCode[0x67]-value[0]-country[0x4a][PHP]
+16:56:41.571 INFO: IsValidArrayCount[2]
+16:56:41.571 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][1077]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:56:41.571 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:56:41.606 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:56:41.606 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:56:41.606 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:56:41.606 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:56:41.665 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:56:41.665 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:56:41.665 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:56:41.665 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:56:41.665 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:56:41.665 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:56:41.665 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:56:41.665 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:56:41.665 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:56:41.712 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:56:41.732 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:56:41.732 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:56:41.732 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:56:41.732 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:56:41.806 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:56:41.806 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:56:41.806 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:56:41.806 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:56:41.806 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:56:41.806 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:56:41.806 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:56:41.806 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:56:41.806 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:56:41.806 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1171] 
+16:56:41.837 INFO: [iGetRcUnitCount]1220 [0] No.1 count[1]
+16:56:41.837 INFO: [iGetRcUnitCount]1220 [1] No.2 count[0]
+16:56:41.837 INFO: [iGetRcUnitCount]1220 [2] No.3 count[0]
+16:56:41.837 INFO: [iGetRcUnitCount]1220 [3] No.4 count[0]
+16:56:41.837 INFO: IsValidArrayCount[4]
+16:56:41.837 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1226]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:56:43.917 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iDispense][258] 
+16:56:43.917 INFO: [OBR08ProPhyBase_oriPro::iDispense]270 ucIsValidArrayCount[1]
+16:56:43.917 INFO: [0] No.1 need 1
+16:56:43.956 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iDispense][343]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:56:44.334 ERROR: RECV RSP FAIL(0),超时重接收
+16:56:47.175 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+16:56:47.175 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:56:47.318 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][440] 
+16:56:47.383 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:56:47.383 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:56:47.383 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:56:47.383 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:56:47.383 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:56:47.383 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:56:47.383 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:56:47.383 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:56:47.383 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][472]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:56:47.383 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][985] 
+16:56:47.420 INFO: [iGetRcUnitRecv]1069 [0]No.1 escrowCode[0x66]-value[0]-country[0x4a][PHP]
+16:56:47.420 INFO: [iGetRcUnitRecv]1069 [1]No.2 escrowCode[0x67]-value[0]-country[0x4a][PHP]
+16:56:47.420 INFO: IsValidArrayCount[2]
+16:56:47.420 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][1077]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:56:47.452 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:56:47.466 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:56:47.466 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:56:47.466 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:56:47.482 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:56:47.545 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:56:47.545 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:56:47.545 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:56:47.545 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:56:47.545 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:56:47.545 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:56:47.545 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:56:47.545 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:56:47.545 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:56:47.545 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+16:56:47.576 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+16:56:47.576 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:56:47.576 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+16:56:47.576 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+16:56:47.639 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:56:47.639 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+16:56:47.639 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+16:56:47.639 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+16:56:47.639 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+16:56:47.639 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+16:56:47.639 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+16:56:47.639 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+16:56:47.639 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+16:56:47.670 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1171] 
+16:56:47.712 INFO: [iGetRcUnitCount]1220 [0] No.1 count[0]
+16:56:47.712 INFO: [iGetRcUnitCount]1220 [1] No.2 count[0]
+16:56:47.712 INFO: [iGetRcUnitCount]1220 [2] No.3 count[0]
+16:56:47.712 INFO: [iGetRcUnitCount]1220 [3] No.4 count[0]
+16:56:47.712 INFO: IsValidArrayCount[4]
+16:56:47.712 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1226]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:06:10.746 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][791] 
+17:06:10.746 INFO: IsInhibit:1
+17:06:10.778 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][836]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:06:10.778 INFO: ->Enter  [OBR08ProPhyBase::iCloseComm][212] 
+17:06:10.884 ERROR: ->Leave  [OBR08ProPhyBase_oriPro::iGetStatus][44]()=1,iPhyCode=0x20014,iLogicCode=0x20014
+17:06:10.884 INFO: ->Leave  [OBR08ProPhyBase::iCloseComm][214]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:06:10.885 INFO: ->Enter  [OBR08ProPhyBase::iCloseComm][212] 
+17:06:10.885 INFO: ->Leave  [OBR08ProPhyBase::iCloseComm][214]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:17:55.910 INFO: ->Enter [OBR08ProPhyBase::iSetCommPara]192  l_acDevLogDir=.\DevDriverLog\ l_szFileName=.\DevDriverLog\\Br08ProDevL.log
+17:17:55.911 SYSTEM: dll_version:V1.0.1B05, dll_date:2026-10-05 devbase_version:V2.0.0.11
+17:17:55.911 INFO: ->Enter  [OBR08ProPhyBase::iSetCommPara_isHighSpeed][304] p_bHighSpeed:0
+17:17:55.911 INFO: [OBR08ProPhyBase::iSetCommPara_isHighSpeed][319] iGetDefaultCommConfig2 ok eCommType:1
+17:17:55.911 INFO: [OBR08ProPhyBase::iSetCommPara_isHighSpeed][343] comID=3 Parity:2 iBaudRate:9600
+17:17:55.913 INFO: [OBR08ProPhyBase::iSetCommPara_isHighSpeed][365] iInitComm2 res:0
+17:17:55.913 INFO: ->Leave  [OBR08ProPhyBase::iSetCommPara_isHighSpeed][373]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:17:55.913 INFO: ->Leave [OBR08ProPhyBase::iSetCommPara][205]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:17:55.918 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iInit][160] 
+17:17:55.935 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iInit][186]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:18:02.425 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][791] 
+17:18:02.425 INFO: IsInhibit:1
+17:18:02.457 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][836]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:18:33.660 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][440] 
+17:18:33.781 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:18:33.781 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+17:18:33.781 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+17:18:33.781 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+17:18:33.781 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+17:18:33.781 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+17:18:33.781 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+17:18:33.781 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:18:33.781 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][472]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:18:33.812 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][985] 
+17:18:33.847 INFO: [iGetRcUnitRecv]1069 [0]No.1 escrowCode[0x66]-value[0]-country[0x4a][PHP]
+17:18:33.847 INFO: [iGetRcUnitRecv]1069 [1]No.2 escrowCode[0x67]-value[0]-country[0x4a][PHP]
+17:18:33.847 INFO: IsValidArrayCount[2]
+17:18:33.847 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][1077]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:18:33.847 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+17:18:33.875 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+17:18:33.875 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:18:33.875 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+17:18:33.875 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+17:18:33.953 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:18:33.953 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+17:18:33.953 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+17:18:33.953 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+17:18:33.953 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+17:18:33.953 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+17:18:33.953 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+17:18:33.953 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:18:33.953 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:18:33.984 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+17:18:34.015 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+17:18:34.015 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:18:34.015 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+17:18:34.015 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+17:18:34.078 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:18:34.078 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+17:18:34.078 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+17:18:34.078 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+17:18:34.078 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+17:18:34.078 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+17:18:34.078 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+17:18:34.078 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:18:34.078 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:18:34.078 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1171] 
+17:18:34.110 INFO: [iGetRcUnitCount]1220 [0] No.1 count[0]
+17:18:34.110 INFO: [iGetRcUnitCount]1220 [1] No.2 count[0]
+17:18:34.110 INFO: [iGetRcUnitCount]1220 [2] No.3 count[0]
+17:18:34.110 INFO: [iGetRcUnitCount]1220 [3] No.4 count[0]
+17:18:34.110 INFO: IsValidArrayCount[4]
+17:18:34.110 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1226]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:18:34.141 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetBill_escrowCode_enable][711] 
+17:18:34.176 INFO: enable 0x61[1]-0x62[1]-0x63[1]-0x64[1]-0x65[1]-0x66[1]-0x67[1]-0x68[1]
+17:18:34.176 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetBill_escrowCode_enable][784]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:18:34.176 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSetRcUnitRecv][882] 
+17:18:34.176 INFO: [0] No.1 escrowCode[0x66]-denomination[0]
+17:18:34.176 INFO: [1] No.2 escrowCode[0x67]-denomination[0]
+17:18:34.176 INFO: [2] No.3 escrowCode[0x64]-denomination[0]
+17:18:34.176 INFO: [0]-escrowCode[0x20]-countryCode[[0x4a], [0bb][0bb]
+17:18:34.176 INFO: [1]-escrowCode[0x40]-countryCode[[0x4a], [0bb][0bb]
+17:18:34.176 INFO: [2]-escrowCode[0x08]-countryCode[[0x4a], [0bb][0bb]
+17:18:34.221 ERROR: ->Leave  [OBR08ProPhyBase_oriPro::iSetRcUnitRecv][975]()=1,iPhyCode=0x20017,iLogicCode=0x20017
+17:20:00.406 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][791] 
+17:20:00.406 INFO: IsInhibit:0
+17:20:00.435 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][836]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:20:00.810 ERROR: RECV RSP FAIL(0),超时重接收
+17:20:04.429 ERROR: RECV RSP FAIL(18),超时重接收
+0000: E0 CB 13 EE 00 70 00 00 - FA 3E C8 00 00 00 00 00    .....p...>......
+0010: 12 E6                                                ..
+17:20:04.836 ERROR: RECV RSP FAIL(20),超时重接收
+0000: 20 E0 CC 13 EE 00 70 00 - 00 FA 3E C8 00 00 00 00     .....p...>.....
+0010: 00 12 A5 92                                          ....
+17:20:04.868 ERROR: [vAnalyzeStatusData][1604179008]StatuDataLen1873
+17:20:04.868 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iCashIn][192] 
+17:20:04.897 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iCashIn][218]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:20:06.277 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+17:20:06.277 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:20:25.736 ERROR: [vAnalyzeStatusData][1604179008]StatuDataLen1873
+17:20:25.736 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iCashIn][192] 
+17:20:25.766 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iCashIn][218]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:20:27.147 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+17:20:27.147 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:20:29.117 ERROR: [vAnalyzeStatusData][1604179008]StatuDataLen1873
+17:20:29.117 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iCashIn][192] 
+17:20:29.146 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iCashIn][218]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:20:30.244 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+17:20:30.244 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:20:33.783 ERROR: RECV RSP FAIL(14),超时重接收
+0000: E0 A7 13 EE 00 70 00 00 - FA 3E C8 00 01 02          .....p...>....
+17:20:34.206 ERROR: RECV RSP FAIL(25),超时重接收
+0000: 00 00 12 71 B7 E0 A8 14 - EE 00 70 00 00 FA 3E C8    ...q......p...>.
+0010: 00 01 02 00 00 17 D8 D2 - 04                         .........
+17:20:57.394 ERROR: [vAnalyzeStatusData][1604179008]StatuDataLen1873
+17:20:57.394 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iCashIn][192] 
+17:20:57.425 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iCashIn][218]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:20:58.673 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+17:20:58.673 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:21:39.886 ERROR: [vAnalyzeStatusData][1604179008]StatuDataLen1873
+17:21:39.886 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iCashIn][192] 
+17:21:39.914 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iCashIn][218]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:21:40.993 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+17:21:40.993 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:21:51.401 ERROR: RECV RSP FAIL(12),超时重接收
+0000: E0 ED 13 EE 00 70 00 00 - FA 3E C8 00                .....p...>..
+17:21:51.808 ERROR: RECV RSP FAIL(26),超时重接收
+0000: 02 03 00 00 12 F1 64 E0 - EE 13 EE 00 70 00 00 FA    ......d.....p...
+0010: 3E C8 00 02 03 00 00 12 - D0 FE                      >.........
+17:21:51.840 ERROR: [vAnalyzeStatusData][1604179008]StatuDataLen1873
+17:21:51.840 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iCashIn][192] 
+17:21:51.864 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iCashIn][218]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:21:53.126 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+17:21:53.126 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:00.322 ERROR: RECV RSP FAIL(15),超时重接收
+0000: E0 3A 13 EE 00 70 00 00 - FA 3E C8 00 02 04 00       .:...p...>.....
+17:22:00.728 ERROR: RECV RSP FAIL(24),超时重接收
+0000: 00 12 0C 92 E0 3B 14 EE - 00 70 00 00 FA 3E C8 00    .....;...p...>..
+0010: 02 04 00 00 17 FA DF 4E                              .......N
+17:22:06.885 ERROR: [vAnalyzeStatusData][1604179008]StatuDataLen1873
+17:22:06.885 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iCashIn][192] 
+17:22:06.913 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iCashIn][218]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:07.975 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+17:22:07.975 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:10.103 ERROR: RECV RSP FAIL(5),超时重接收
+0000: E0 7C 13 EE 00                                       .|...
+17:22:10.525 ERROR: RECV RSP FAIL(33),超时重接收
+0000: 70 00 00 FA 3E C8 00 03 - 04 00 00 12 19 33 E0 7D    p...>........3.}
+0010: 13 EE 00 70 00 00 FA 3E - C8 00 03 04 00 00 12 09    ...p...>........
+0020: BD                                                   .
+17:22:10.556 ERROR: [vAnalyzeStatusData][1604179008]StatuDataLen1873
+17:22:10.556 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iCashIn][192] 
+17:22:10.580 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iCashIn][218]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:11.697 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+17:22:11.697 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:17.676 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][791] 
+17:22:17.676 INFO: IsInhibit:1
+17:22:17.707 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSetRecvInhibit][836]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:23.147 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][440] 
+17:22:23.211 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:23.211 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+17:22:23.211 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+17:22:23.211 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+17:22:23.211 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+17:22:23.211 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+17:22:23.211 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+17:22:23.211 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:23.211 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][472]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:23.211 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][985] 
+17:22:23.241 INFO: [iGetRcUnitRecv]1069 [0]No.1 escrowCode[0x66]-value[0]-country[0x4a][PHP]
+17:22:23.241 INFO: [iGetRcUnitRecv]1069 [1]No.2 escrowCode[0x67]-value[0]-country[0x4a][PHP]
+17:22:23.241 INFO: IsValidArrayCount[2]
+17:22:23.241 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][1077]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:23.241 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+17:22:23.272 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+17:22:23.272 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:23.272 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+17:22:23.272 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+17:22:23.341 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:23.341 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+17:22:23.341 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+17:22:23.341 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+17:22:23.341 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+17:22:23.341 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+17:22:23.341 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+17:22:23.341 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:23.341 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:23.366 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+17:22:23.397 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+17:22:23.397 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:23.397 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+17:22:23.397 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+17:22:23.460 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:23.460 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+17:22:23.460 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+17:22:23.460 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+17:22:23.460 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+17:22:23.460 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+17:22:23.460 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+17:22:23.460 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:23.460 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:23.460 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1171] 
+17:22:23.507 INFO: [iGetRcUnitCount]1220 [0] No.1 count[4]
+17:22:23.507 INFO: [iGetRcUnitCount]1220 [1] No.2 count[4]
+17:22:23.507 INFO: [iGetRcUnitCount]1220 [2] No.3 count[0]
+17:22:23.507 INFO: [iGetRcUnitCount]1220 [3] No.4 count[0]
+17:22:23.507 INFO: IsValidArrayCount[4]
+17:22:23.507 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1226]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:25.142 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1171] 
+17:22:25.175 INFO: [iGetRcUnitCount]1220 [0] No.1 count[4]
+17:22:25.175 INFO: [iGetRcUnitCount]1220 [1] No.2 count[4]
+17:22:25.175 INFO: [iGetRcUnitCount]1220 [2] No.3 count[0]
+17:22:25.175 INFO: [iGetRcUnitCount]1220 [3] No.4 count[0]
+17:22:25.175 INFO: IsValidArrayCount[4]
+17:22:25.175 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1226]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:25.175 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][985] 
+17:22:25.284 INFO: [iGetRcUnitRecv]1069 [0]No.1 escrowCode[0x66]-value[0]-country[0x4a][PHP]
+17:22:25.284 INFO: [iGetRcUnitRecv]1069 [1]No.2 escrowCode[0x67]-value[0]-country[0x4a][PHP]
+17:22:25.284 INFO: IsValidArrayCount[2]
+17:22:25.284 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][1077]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:25.305 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+17:22:25.342 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+17:22:25.342 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:25.342 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+17:22:25.342 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+17:22:25.399 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:25.399 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+17:22:25.399 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+17:22:25.399 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+17:22:25.399 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+17:22:25.399 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+17:22:25.399 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+17:22:25.399 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:25.399 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:25.399 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+17:22:25.436 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+17:22:25.436 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:25.436 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+17:22:25.436 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+17:22:25.493 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:25.493 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+17:22:25.493 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+17:22:25.493 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+17:22:25.493 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+17:22:25.493 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+17:22:25.493 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+17:22:25.493 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:25.493 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:25.524 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][440] 
+17:22:25.602 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:25.602 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+17:22:25.602 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+17:22:25.602 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+17:22:25.602 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+17:22:25.602 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+17:22:25.602 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+17:22:25.602 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:25.602 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][472]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:25.602 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iDispense][258] 
+17:22:25.602 INFO: [OBR08ProPhyBase_oriPro::iDispense]270 ucIsValidArrayCount[1]
+17:22:25.602 INFO: [0] No.2 need 2
+17:22:25.633 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iDispense][343]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:33.710 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+17:22:33.710 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:36.382 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+17:22:36.382 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:36.521 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][440] 
+17:22:36.586 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:36.586 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+17:22:36.586 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+17:22:36.586 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+17:22:36.586 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+17:22:36.586 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+17:22:36.586 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+17:22:36.586 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:36.586 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][472]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:36.587 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][985] 
+17:22:36.623 INFO: [iGetRcUnitRecv]1069 [0]No.1 escrowCode[0x66]-value[0]-country[0x4a][PHP]
+17:22:36.623 INFO: [iGetRcUnitRecv]1069 [1]No.2 escrowCode[0x67]-value[0]-country[0x4a][PHP]
+17:22:36.623 INFO: IsValidArrayCount[2]
+17:22:36.623 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][1077]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:36.655 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+17:22:36.670 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+17:22:36.670 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:36.670 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+17:22:36.670 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+17:22:36.750 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:36.750 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+17:22:36.750 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+17:22:36.750 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+17:22:36.750 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+17:22:36.750 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+17:22:36.750 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+17:22:36.750 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:36.750 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:36.750 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+17:22:36.781 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+17:22:36.781 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:36.781 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+17:22:36.781 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+17:22:36.842 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:36.842 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+17:22:36.842 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+17:22:36.842 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+17:22:36.842 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+17:22:36.842 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+17:22:36.842 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+17:22:36.842 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:36.842 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:36.874 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1171] 
+17:22:36.905 INFO: [iGetRcUnitCount]1220 [0] No.1 count[4]
+17:22:36.905 INFO: [iGetRcUnitCount]1220 [1] No.2 count[2]
+17:22:36.905 INFO: [iGetRcUnitCount]1220 [2] No.3 count[0]
+17:22:36.905 INFO: [iGetRcUnitCount]1220 [3] No.4 count[0]
+17:22:36.905 INFO: IsValidArrayCount[4]
+17:22:36.905 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1226]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:47.129 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][440] 
+17:22:47.194 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:47.194 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+17:22:47.194 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+17:22:47.194 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+17:22:47.194 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+17:22:47.194 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+17:22:47.194 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+17:22:47.194 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:47.194 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][472]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:47.194 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][985] 
+17:22:47.224 INFO: [iGetRcUnitRecv]1069 [0]No.1 escrowCode[0x66]-value[0]-country[0x4a][PHP]
+17:22:47.224 INFO: [iGetRcUnitRecv]1069 [1]No.2 escrowCode[0x67]-value[0]-country[0x4a][PHP]
+17:22:47.224 INFO: IsValidArrayCount[2]
+17:22:47.224 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][1077]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:47.224 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+17:22:47.259 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+17:22:47.259 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:47.259 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+17:22:47.259 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+17:22:47.323 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:47.323 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+17:22:47.323 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+17:22:47.323 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+17:22:47.323 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+17:22:47.323 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+17:22:47.323 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+17:22:47.323 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:47.323 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:47.359 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+17:22:47.380 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+17:22:47.380 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:47.380 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+17:22:47.380 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+17:22:47.443 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:47.443 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+17:22:47.443 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+17:22:47.443 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+17:22:47.443 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+17:22:47.443 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+17:22:47.443 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+17:22:47.443 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:47.443 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:47.443 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1171] 
+17:22:47.490 INFO: [iGetRcUnitCount]1220 [0] No.1 count[4]
+17:22:47.490 INFO: [iGetRcUnitCount]1220 [1] No.2 count[2]
+17:22:47.490 INFO: [iGetRcUnitCount]1220 [2] No.3 count[0]
+17:22:47.490 INFO: [iGetRcUnitCount]1220 [3] No.4 count[0]
+17:22:47.490 INFO: IsValidArrayCount[4]
+17:22:47.490 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1226]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:55.708 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][440] 
+17:22:55.764 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:55.764 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+17:22:55.764 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+17:22:55.764 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+17:22:55.764 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+17:22:55.764 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+17:22:55.764 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+17:22:55.764 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:55.764 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][472]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:55.773 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][985] 
+17:22:55.804 INFO: [iGetRcUnitRecv]1069 [0]No.1 escrowCode[0x66]-value[0]-country[0x4a][PHP]
+17:22:55.804 INFO: [iGetRcUnitRecv]1069 [1]No.2 escrowCode[0x67]-value[0]-country[0x4a][PHP]
+17:22:55.804 INFO: IsValidArrayCount[2]
+17:22:55.804 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][1077]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:55.804 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+17:22:55.836 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+17:22:55.836 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:55.836 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+17:22:55.836 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+17:22:55.899 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:55.899 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+17:22:55.899 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+17:22:55.899 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+17:22:55.899 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+17:22:55.899 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+17:22:55.899 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+17:22:55.899 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:55.899 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:55.930 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+17:22:55.964 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+17:22:55.964 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:55.964 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+17:22:55.964 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+17:22:56.023 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:56.023 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+17:22:56.023 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+17:22:56.023 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+17:22:56.023 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+17:22:56.023 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+17:22:56.023 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+17:22:56.023 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:56.023 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:56.023 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1171] 
+17:22:56.064 INFO: [iGetRcUnitCount]1220 [0] No.1 count[4]
+17:22:56.064 INFO: [iGetRcUnitCount]1220 [1] No.2 count[2]
+17:22:56.064 INFO: [iGetRcUnitCount]1220 [2] No.3 count[0]
+17:22:56.064 INFO: [iGetRcUnitCount]1220 [3] No.4 count[0]
+17:22:56.064 INFO: IsValidArrayCount[4]
+17:22:56.064 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1226]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:58.165 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1171] 
+17:22:58.191 INFO: [iGetRcUnitCount]1220 [0] No.1 count[4]
+17:22:58.191 INFO: [iGetRcUnitCount]1220 [1] No.2 count[2]
+17:22:58.191 INFO: [iGetRcUnitCount]1220 [2] No.3 count[0]
+17:22:58.191 INFO: [iGetRcUnitCount]1220 [3] No.4 count[0]
+17:22:58.191 INFO: IsValidArrayCount[4]
+17:22:58.191 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1226]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:58.237 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][985] 
+17:22:58.273 INFO: [iGetRcUnitRecv]1069 [0]No.1 escrowCode[0x66]-value[0]-country[0x4a][PHP]
+17:22:58.273 INFO: [iGetRcUnitRecv]1069 [1]No.2 escrowCode[0x67]-value[0]-country[0x4a][PHP]
+17:22:58.273 INFO: IsValidArrayCount[2]
+17:22:58.273 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][1077]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:58.273 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+17:22:58.289 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+17:22:58.289 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:58.289 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+17:22:58.289 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+17:22:58.367 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:58.367 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+17:22:58.367 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+17:22:58.367 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+17:22:58.367 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+17:22:58.367 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+17:22:58.367 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+17:22:58.367 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:58.367 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:58.398 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+17:22:58.430 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+17:22:58.430 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:58.430 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+17:22:58.430 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+17:22:58.492 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:58.492 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+17:22:58.492 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+17:22:58.492 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+17:22:58.492 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+17:22:58.492 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+17:22:58.492 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+17:22:58.492 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:58.492 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:58.492 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][440] 
+17:22:58.556 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:58.556 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+17:22:58.556 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+17:22:58.556 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+17:22:58.556 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+17:22:58.556 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+17:22:58.556 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+17:22:58.556 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:22:58.556 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][472]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:22:58.586 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iDispense][258] 
+17:22:58.586 INFO: [OBR08ProPhyBase_oriPro::iDispense]270 ucIsValidArrayCount[2]
+17:22:58.586 INFO: [0] No.2 need 2
+17:22:58.586 INFO: [1] No.1 need 4
+17:22:58.625 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iDispense][343]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:23:00.984 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+17:23:00.984 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:23:04.494 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+17:23:04.494 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:23:06.451 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+17:23:06.451 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:23:08.559 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+17:23:08.559 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:23:10.394 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+17:23:10.394 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:23:13.354 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iSendAckResponse][1233] 
+17:23:13.354 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iSendAckResponse][1255]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:23:13.488 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][440] 
+17:23:13.552 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:23:13.553 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+17:23:13.553 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+17:23:13.553 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+17:23:13.553 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+17:23:13.553 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+17:23:13.553 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+17:23:13.553 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:23:13.553 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign][472]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:23:13.553 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][985] 
+17:23:13.589 INFO: [iGetRcUnitRecv]1069 [0]No.1 escrowCode[0x66]-value[0]-country[0x4a][PHP]
+17:23:13.589 INFO: [iGetRcUnitRecv]1069 [1]No.2 escrowCode[0x67]-value[0]-country[0x4a][PHP]
+17:23:13.589 INFO: IsValidArrayCount[2]
+17:23:13.589 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitRecv][1077]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:23:13.965 ERROR: RECV RSP FAIL(0),超时重接收
+17:23:13.997 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+17:23:14.012 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+17:23:14.012 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:23:14.012 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+17:23:14.012 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+17:23:14.090 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:23:14.090 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+17:23:14.090 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+17:23:14.090 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+17:23:14.090 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+17:23:14.090 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+17:23:14.090 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+17:23:14.090 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:23:14.090 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:23:14.090 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][522] 
+17:23:14.121 INFO: [AnalyzeSuppostRecvCurrency](2020) [0] type[0x4a][PHP]
+17:23:14.121 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetSuppostRecvCurrency][560]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:23:14.121 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][479] 
+17:23:14.121 INFO: [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][488] type[0x4a][]
+17:23:14.184 INFO: [CurrencyAssign](1981) [0] ori[0x61][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:23:14.184 INFO: [CurrencyAssign](1981) [1] ori[0x62][0x4a][0x14][0x 0]-denomination[20]-desc[PHP]
+17:23:14.184 INFO: [CurrencyAssign](1981) [2] ori[0x63][0x4a][0x32][0x 0]-denomination[50]-desc[PHP]
+17:23:14.184 INFO: [CurrencyAssign](1981) [3] ori[0x64][0x4a][0x a][0x 1]-denomination[100]-desc[PHP]
+17:23:14.184 INFO: [CurrencyAssign](1981) [4] ori[0x65][0x4a][0x14][0x 1]-denomination[200]-desc[PHP]
+17:23:14.184 INFO: [CurrencyAssign](1981) [5] ori[0x66][0x4a][0x32][0x 1]-denomination[500]-desc[PHP]
+17:23:14.184 INFO: [CurrencyAssign](1981) [6] ori[0x67][0x4a][0x a][0x 2]-denomination[1000]-desc[PHP]
+17:23:14.184 INFO: [CurrencyAssign](1981) [7] ori[0x68][0x 0][0x 0][0x 0]-denomination[0]-desc[]
+17:23:14.184 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetCurrencyAssign_withCurrency][515]()=0,iPhyCode=0x0,iLogicCode=0x0
+17:23:14.215 INFO: ->Enter  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1171] 
+17:23:14.247 INFO: [iGetRcUnitCount]1220 [0] No.1 count[0]
+17:23:14.247 INFO: [iGetRcUnitCount]1220 [1] No.2 count[0]
+17:23:14.247 INFO: [iGetRcUnitCount]1220 [2] No.3 count[0]
+17:23:14.247 INFO: [iGetRcUnitCount]1220 [3] No.4 count[0]
+17:23:14.247 INFO: IsValidArrayCount[4]
+17:23:14.247 INFO: ->Leave  [OBR08ProPhyBase_oriPro::iGetRcUnitCount][1226]()=0,iPhyCode=0x0,iLogicCode=0x0

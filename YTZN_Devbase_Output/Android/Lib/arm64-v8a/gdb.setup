@@ -1,0 +1,2 @@
+set solib-search-path /tmp/ndklib_build/DevBase/ndk-obj/local/arm64-v8a
+directory /opt/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/sysroot /mnt/hgfs/CrossPlatform/dunite/DevBase/Src/Android/jni ../../ ../../\Src_Linux /opt/android-ndk-r21/sources/cxx-stl/llvm-libc++/include /opt/android-ndk-r21/sources/cxx-stl/llvm-libc++abi/include
