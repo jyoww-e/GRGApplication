@@ -6,13 +6,13 @@ const koffi = require("koffi");
 
 const WIN = process.platform === "win32";
 const ARCH = { x64: "x64", ia32: "x86" }[process.arch];
-// const DBG = process.env.BR08_DEBUG_LIB === "1"; // use the *D (debug) library build
-const DBG = true; // use the *D (debug) library build
-const SUF = DBG ? "D" : "";
-
-const SDK_ROOT = path.resolve(
-  process.env.BR08_SDK_DIR || path.join(__dirname, "..", "Library"),
-);
+const SUF = "D";
+const SDK_ROOT = path.join(__dirname, "dependencies", "library");
+const windowsKernel = WIN ? koffi.load("kernel32.dll") : null;
+const setDllDirectory = windowsKernel
+  ? windowsKernel.func("int __stdcall SetDllDirectoryW(str16 directory)")
+  : null;
+const loadedDependencies = [];
 
 function findCI(dir, name) {
   // case-insensitive file lookup
@@ -37,29 +37,27 @@ function locate() {
     );
 
   const libDir = WIN
-    ? path.join(SDK_ROOT, "Windows", "Dll", ARCH)
-    : path.join(SDK_ROOT, "Linux", "Lib", ARCH);
+    ? path.join(SDK_ROOT, "Windows", ARCH)
+    : path.join(SDK_ROOT, "Linux", ARCH);
   const libName = WIN ? `BR08ProDev${SUF}.dll` : `libBR08ProDev${SUF}.so`;
-  const libPath = process.env.BR08_LIB
-    ? path.resolve(process.env.BR08_LIB)
-    : findCI(libDir, libName);
+  const libPath = findCI(libDir, libName);
   if (!libPath || !fs.existsSync(libPath)) {
     throw new Error(
-      `Cannot find ${libName} in ${libDir}\n  Put the vendor "Library" folder next to package.json, or set BR08_SDK_DIR / BR08_LIB.`,
+      `Cannot find bundled library ${libName} in ${libDir}.`,
     );
   }
 
   // Folders that may hold the DevBase dependency libraries (YTZN_DevBase / YTZN_DevDriverLog / UsbWrapper).
   const osDir = WIN ? "Windows" : "Linux";
-  const roots = [
-    process.env.BR08_DEVBASE_DIR,
-    path.join(SDK_ROOT, "YTZN_Devbase_Output"),
-    path.join(SDK_ROOT, "..", "YTZN_Devbase_Output"),
-    path.join(process.cwd(), "YTZN_Devbase_Output"),
-  ].filter(Boolean);
+  const root = path.join(__dirname, "dependencies", "ytzn");
+  const roots = [root];
   const depDirs = [path.dirname(libPath)];
-  for (const r of roots)
-    depDirs.push(path.resolve(r), path.resolve(r, osDir, "Dll", ARCH));
+  for (const r of roots) {
+    depDirs.push(path.resolve(r));
+    depDirs.push(
+      path.resolve(r, osDir, "Dll", ARCH),
+    );
+  }
   return {
     libPath,
     depDirs: [...new Set(depDirs)].filter((d) => fs.existsSync(d)),
@@ -75,7 +73,6 @@ function preloadDependencies(depDirs) {
         `libYTZN_DevBase${SUF}.so`,
       ];
   const found = [];
-  console.log(wanted);
   for (const name of wanted)
     for (const d of depDirs) {
       const f = findCI(d, name);
@@ -85,47 +82,52 @@ function preloadDependencies(depDirs) {
       }
     }
 
-  if (WIN) {
-    // let Windows resolve DLL-to-DLL dependencies through PATH
-    const dirs = [
-      ...new Set(found.map((f) => path.dirname(f)).concat(depDirs[0])),
-    ];
-    process.env.PATH =
-      dirs.join(path.delimiter) + path.delimiter + (process.env.PATH || "");
+  const missing = wanted.filter(
+    (name) =>
+      !found.some(
+        (file) => path.basename(file).toLowerCase() === name.toLowerCase(),
+      ),
+  );
+  if (missing.length) {
+    throw new Error(
+      `Bundled DevBase dependencies are missing: ${missing.join(", ")}.`,
+    );
   }
-  // Pre-load by absolute path (Linux ignores LD_LIBRARY_PATH changes made after process start).
-  // Several passes, because the libraries depend on each other.
-  let pending = [...found];
-  for (let pass = 0; pass < 4 && pending.length; pass++) {
-    pending = pending.filter((f) => {
-      try {
-        koffi.load(f);
-        return false;
-      } catch {
-        return true;
-      }
-    });
+
+  for (const file of found) {
+    // Keep sibling DLLs resolvable without modifying PATH.
+    if (WIN && !setDllDirectory(path.dirname(file))) {
+      throw new Error(
+        `Could not set the bundled DLL search directory to ${path.dirname(file)}.`,
+      );
+    }
+    try {
+      // POSIX dependencies need global symbols while loading their dependants.
+      loadedDependencies.push(
+        WIN ? koffi.load(file) : koffi.load(file, { global: true }),
+      );
+    } catch (error) {
+      throw new Error(
+        `Failed to load bundled dependency ${file}: ${error.message}`,
+      );
+    }
   }
-  return {
-    found,
-    missing: wanted.filter(
-      (n) =>
-        !found.some((f) => path.basename(f).toLowerCase() === n.toLowerCase()),
-    ),
-  };
+  return found;
 }
 
 const { libPath, depDirs } = locate();
-const dep = preloadDependencies(depDirs);
+preloadDependencies(depDirs);
+if (WIN && !setDllDirectory(path.dirname(libPath))) {
+  throw new Error(
+    `Could not set the bundled DLL search directory to ${path.dirname(libPath)}.`,
+  );
+}
 let lib;
 try {
   lib = koffi.load(libPath);
 } catch (e) {
-  const hint = dep.missing.length
-    ? `\n  DevBase dependency libraries NOT found: ${dep.missing.join(", ")}\n  Install the vendor's YTZN_Devbase_Output package (run its install script),\n  or set BR08_DEVBASE_DIR to the folder that contains them.`
-    : "";
   throw new Error(
-    `Failed to load ${libPath}\n  ${String(e.message).split("\n")[0]}${hint}`,
+    `Failed to load ${libPath}\n  ${String(e.message).split("\n")[0]}`,
   );
 }
 
