@@ -1132,10 +1132,7 @@ class Br08Device extends EventEmitter {
     if (!customEvent) {
       const additional =
         this._activePayout &&
-        [
-          DEVICE_STATUS.PAY_STAY,
-          DEVICE_STATUS.PAY_VALID,
-        ].includes(state.id)
+        [DEVICE_STATUS.PAY_STAY, DEVICE_STATUS.PAY_VALID].includes(state.id)
           ? { total: this._activePayout.dispensedTotal }
           : {};
       this._emitStatusChanged(

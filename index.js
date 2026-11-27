@@ -76,7 +76,9 @@ function installDevBase() {
           stdio: "inherit",
         });
   if (result.error) {
-    throw new Error(`Could not run the YTZN_DevBase installer: ${result.error.message}`);
+    throw new Error(
+      `Could not run the YTZN_DevBase installer: ${result.error.message}`,
+    );
   }
   if (result.status !== 0) {
     throw new Error(
@@ -304,7 +306,8 @@ async function main() {
       return {
         unit,
         assigned: Boolean(assignment),
-        currency: (bill && bill.desc) || (assignment && assignment.cCountryDesc) || "",
+        currency:
+          (bill && bill.desc) || (assignment && assignment.cCountryDesc) || "",
         denomination: bill ? bill.denomination : 0,
         count: stock ? stock.RecycleCurrentCount : 0,
       };
@@ -339,11 +342,7 @@ async function main() {
     const skipConfirm = args.includes("-y");
     const amounts = args.filter((argument) => argument !== "-y");
     const amount = Number(amounts[0]);
-    if (
-      amounts.length !== 1 ||
-      !Number.isSafeInteger(amount) ||
-      amount <= 0
-    ) {
+    if (amounts.length !== 1 || !Number.isSafeInteger(amount) || amount <= 0) {
       throw new Error("Usage: cashout <amount> [-y]   e.g. cashout 1700");
     }
     const preview = await device.previewPayout(amount);
@@ -362,8 +361,10 @@ async function main() {
     printRecycler(await getRecyclerView());
   };
 
-  console.log("BR08 API console. No device connection is made automatically.");
-  console.log('Type "help" to list APIs, "cashin" to accept bills, or "exit" to quit.');
+  console.log("BR08 API console");
+  console.log(
+    'Type "help" to list APIs, "cashin" to accept bills, or "exit" to quit.',
+  );
 
   for (;;) {
     rl.prompt();
